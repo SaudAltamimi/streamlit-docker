@@ -7,3 +7,5 @@ services:
       - "8501:8501"
     volumes:
       - "./src:/usr/src/app/src"
+    environment:
+      - COMPOSE_CONVERT_WINDOWS_PATHS=1
